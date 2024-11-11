@@ -1,0 +1,10 @@
+Problem Level: Beginner
+
+Create a palindrome checker that contains:
+1. Edge case handling.
+2. No errors and a predictable result.
+
+After creating a basic outline try creating an optimized way
+HINT:
+1. Time Complexity : O(n)
+2. Space Complexity : O(1)
