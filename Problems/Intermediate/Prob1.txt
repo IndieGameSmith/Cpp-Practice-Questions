@@ -1,0 +1,24 @@
+Problem Level: Intermediate 
+
+Problem:
+
+Create a SmartPointer class that automatically manages memory.
+This should be similar to unique_ptr not shared_ptr.
+
+Requirements:
+
+Constructor: Initialize the pointer.
+Destructor: Delete the pointer to avoid memory leaks.
+Copy Constructor: Create a deep copy of the pointer.
+Assignment Operator: Assign one SmartPointer to another.
+Move Constructor: Transfer ownership of the pointer without copying.
+Move Assignment Operator: Transfer ownership of the pointer without copying.
+Dereference Operator: Access the pointed-to object.
+Conversion Operator: Check if the pointer is valid.
+
+HINT:
+Use delete operator to deallocate memory.
+Implement copy and move semantics to avoid unnecessary copying and potential memory leaks.
+
+Challange: 
+Implement a custom deleter for a resource that requires specific cleanup actions, such as closing a file or releasing a network connection.
