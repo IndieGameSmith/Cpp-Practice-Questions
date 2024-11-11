@@ -24,9 +24,21 @@ bool isPalindrome(const std::string& str)
     /* Checks until left and right converge */
     while (left < right)
     {
+        if (!isalnum(str[left]))
+        {
+            left++;
+            continue;
+        }
+        
+        if (!isalnum(str[right]))
+        {
+            right--;
+            continue;
+        }
+        
         if (tolower(str[left]) != tolower(str[right]))
         {
-            /* if no equal then returns false */
+            /* if not equal then returns false */
             return false;
         }
         
