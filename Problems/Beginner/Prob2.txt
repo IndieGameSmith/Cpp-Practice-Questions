@@ -1,0 +1,8 @@
+Problem Level: Beginner
+
+Problem:
+Write a C++ program that asks the
+user to input two integers.
+The program should then calculate and 
+display the sum, difference, 
+product, and quotient of the two numbers.
